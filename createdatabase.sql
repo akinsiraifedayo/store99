@@ -8,5 +8,6 @@ CREATE TABLE products (
   name VARCHAR(255) NOT NULL,
   price DECIMAL(10, 2) NOT NULL,
   product_type VARCHAR(255) NOT NULL,
-  product_attributes TEXT NOT NULL
+  product_attributes TEXT NOT NULL,
+  value VARCHAR(255) NOT NULL
 );
